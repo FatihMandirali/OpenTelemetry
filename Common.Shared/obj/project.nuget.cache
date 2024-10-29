@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "71ZFcuMI1gk4OvbxFkOp7MRaswumrw1QrG+6al4WW0eAwEl/6icFD4LhFC6zcpTCmCe6hLppcg5GG8sJT0jdPQ==",
+  "success": true,
+  "projectFilePath": "/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Common.Shared/Common.Shared.csproj",
+  "expectedPackageFiles": [
+    "/Users/fatihmandirali/.nuget/packages/microsoft.io.recyclablememorystream/3.0.1/microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
