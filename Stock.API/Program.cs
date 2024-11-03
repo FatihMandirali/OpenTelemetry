@@ -1,4 +1,5 @@
 using Common.Shared;
+using Logging.Shared;
 using MassTransit;
 using OpenTelemetry.Shared;
 using Serilog;
@@ -50,6 +51,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseMiddleware<RequestAndResponseActivityMiddleware>();
+app.UseMiddleware<OpenTelemetryTraceIdMiddleware>();
 
 app.UseHttpsRedirection();
 

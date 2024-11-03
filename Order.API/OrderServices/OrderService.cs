@@ -16,13 +16,15 @@ public class OrderService
     private readonly StockService _stockService;
     private readonly RedisService _redisService;
     private readonly IPublishEndpoint _publishEndpoint;
+    private readonly ILogger<OrderService> _logger;
 
-    public OrderService(AppDbContext appDbContext, StockService stockService, RedisService redisService, IPublishEndpoint publishEndpoint)
+    public OrderService(AppDbContext appDbContext, StockService stockService, RedisService redisService, IPublishEndpoint publishEndpoint, ILogger<OrderService> logger)
     {
         _appDbContext = appDbContext;
         _stockService = stockService;
         _redisService = redisService;
         _publishEndpoint = publishEndpoint;
+        _logger = logger;
     }
 
     public async Task<ResponseDto<OrderCreateResponseDto>> CreateAsync(OrderCreateRequestDto requestDto)
@@ -60,6 +62,9 @@ public class OrderService
 
         _appDbContext.Orders.Add(newOrder);
         await _appDbContext.SaveChangesAsync();
+
+        //NOT: {@test} şeklimnde isimlendirme yaparsak eğer elastic tarafı bu değişkeni indexler,field olarak algılar ve böylece direkt test:1 şeklinde arama yapabilir hale geliriz. 
+        _logger.LogInformation("Sipariş dbye kaydedildi. {@userId}", newOrder.UserId);
         
         // //KUYRUĞA MESAJ GÖNDER
         // await _publishEndpoint.Publish(new OrderCreateEvent

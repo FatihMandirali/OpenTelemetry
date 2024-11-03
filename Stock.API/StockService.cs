@@ -8,10 +8,12 @@ namespace Stock.API;
 public class StockService
 {
     private readonly PaymentService _paymentService;
+    private readonly ILogger<StockService> _logger;
 
-    public StockService(PaymentService paymentService)
+    public StockService(PaymentService paymentService, ILogger<StockService> logger)
     {
         _paymentService = paymentService;
+        _logger = logger;
     }
 
     private Dictionary<int, int> GetProductStockList()
@@ -39,6 +41,9 @@ public class StockService
         {
             return ResponseDto<StockCheckAndPaymentProcessResponseDto>.Fail(HttpStatusCode.BadRequest.GetHashCode(), "stock yetersiz");
         }
+        
+        //NOT: {@test} şeklimnde isimlendirme yaparsak eğer elastic tarafı bu değişkeni indexler,field olarak algılar ve böylece direkt test:1 şeklinde arama yapabilir hale geliriz. 
+        _logger.LogInformation("Stock ayrıldı.OrderCode:{@orderCode}",request.OrderCode);
 
         var (isSuccess,failMessage) = await _paymentService.CreateCreate(new PaymentCreateRequestDto{OrderCode = request.OrderCode, TotalPrice = request.OrderItems.Sum(x=>x.UnitPrice)});
 
