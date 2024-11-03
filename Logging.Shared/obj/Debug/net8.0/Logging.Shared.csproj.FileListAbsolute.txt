@@ -1,0 +1,13 @@
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Logging.Shared/bin/Debug/net8.0/Logging.Shared.deps.json
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Logging.Shared/bin/Debug/net8.0/Logging.Shared.dll
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Logging.Shared/bin/Debug/net8.0/Logging.Shared.pdb
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Logging.Shared/obj/Debug/net8.0/Logging.Shared.csproj.AssemblyReference.cache
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Logging.Shared/obj/Debug/net8.0/Logging.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Logging.Shared/obj/Debug/net8.0/Logging.Shared.AssemblyInfoInputs.cache
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Logging.Shared/obj/Debug/net8.0/Logging.Shared.AssemblyInfo.cs
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Logging.Shared/obj/Debug/net8.0/Logging.Shared.csproj.CoreCompileInputs.cache
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Logging.Shared/obj/Debug/net8.0/Logging.Shared.sourcelink.json
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Logging.Shared/obj/Debug/net8.0/Logging.Shared.dll
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Logging.Shared/obj/Debug/net8.0/refint/Logging.Shared.dll
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Logging.Shared/obj/Debug/net8.0/Logging.Shared.pdb
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Logging.Shared/obj/Debug/net8.0/ref/Logging.Shared.dll
