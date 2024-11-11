@@ -1,0 +1,10 @@
+version: '3.4'
+services:
+  metric.api:
+    ports:
+     - 5010:8080
+  prometheus:
+    ports:
+     - 9090:9090 	
+volumes:
+  elastic_db:    

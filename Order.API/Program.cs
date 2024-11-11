@@ -68,6 +68,7 @@ app.UseHttpsRedirection();
 
 app.UseMiddleware<RequestAndResponseActivityMiddleware>();
 app.UseMiddleware<OpenTelemetryTraceIdMiddleware>();
+app.UseExceptionMiddleware();
 
 app.UseAuthorization();
 

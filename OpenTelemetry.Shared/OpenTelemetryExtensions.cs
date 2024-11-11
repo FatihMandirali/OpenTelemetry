@@ -48,6 +48,11 @@ public static class OpenTelemetryExtensions
             });
             options.AddHttpClientInstrumentation(httpOptions =>
             {
+                httpOptions.FilterHttpRequestMessage = (request) =>
+                {
+                    return !request.RequestUri.AbsoluteUri.Contains("9200", StringComparison.InvariantCulture);
+                };
+                
                 httpOptions.EnrichWithHttpRequestMessage = async (activity, request) =>
                 {
                     var requestContent = "empty";

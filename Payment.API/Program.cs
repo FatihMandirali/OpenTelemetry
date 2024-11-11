@@ -25,7 +25,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseMiddleware<RequestAndResponseActivityMiddleware>();
 app.UseMiddleware<OpenTelemetryTraceIdMiddleware>();
-
+app.UseExceptionMiddleware();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

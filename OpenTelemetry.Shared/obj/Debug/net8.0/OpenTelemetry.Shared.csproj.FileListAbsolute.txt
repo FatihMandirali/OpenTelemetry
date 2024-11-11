@@ -10,3 +10,4 @@
 /Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/OpenTelemetry.Shared/obj/Debug/net8.0/refint/OpenTelemetry.Shared.dll
 /Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/OpenTelemetry.Shared/obj/Debug/net8.0/OpenTelemetry.Shared.pdb
 /Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/OpenTelemetry.Shared/obj/Debug/net8.0/ref/OpenTelemetry.Shared.dll
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/OpenTelemetry.Shared/obj/Debug/net8.0/OpenTelemetry.Shared.sourcelink.json
