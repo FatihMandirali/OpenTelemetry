@@ -6,5 +6,28 @@ services:
   prometheus:
     ports:
      - 9090:9090 	
+  jaeger:
+    container_name: "jaeger-container"
+    ports:
+     - 4317:4317   #grpc
+     - 4318:4318   #http
+     - 16686:16686 #UI   
+  elasticsearch:
+    ports:
+     - 9200:9200
+    environment:
+     - xpack.security.enabled=false
+     - "discovery.type=single-node"
+     - ELASTIC_USERNAME=elastic
+     - ELASTIC_PASSWORD=DkIedPPSCb
+    volumes:
+     - elastic_db:/usr/share/elasticsearch/data
+  kibana:
+    ports:
+     - 5601:5601
+    environment:
+     - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    depends_on:
+     - elasticsearch     
 volumes:
   elastic_db:    

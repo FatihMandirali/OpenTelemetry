@@ -10,4 +10,10 @@ services:
     image: prom/prometheus:v2.37.9
     volumes: 
        - ./prometheus.yml:/etc/prometheus/prometheus.yml
+   jaeger:
+    image: jaegertracing/all-in-one:1.49  
+   elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.8.1  
+   kibana:
+    image: docker.elastic.co/kibana/kibana:8.8.1  
       
