@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8r8WVHonQbRHcsqm4PS+Lpr/bOAQ+Eb8vWqbt2ei3lI6x/E2giBVMPLV8YwopPNCYDBkzJEZnAgMBqR2fhhV3A==",
+  "dgSpecHash": "m02P9LMXLZk=",
   "success": true,
   "projectFilePath": "/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Logging.Shared/Logging.Shared.csproj",
   "expectedPackageFiles": [
@@ -34,7 +34,9 @@
     "/Users/fatihmandirali/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/system.reflection.typeextensions/4.7.0/system.reflection.typeextensions.4.7.0.nupkg.sha512",
-    "/Users/fatihmandirali/.nuget/packages/system.threading.channels/8.0.0/system.threading.channels.8.0.0.nupkg.sha512"
+    "/Users/fatihmandirali/.nuget/packages/system.threading.channels/8.0.0/system.threading.channels.8.0.0.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512"
   ],
   "logs": []
 }

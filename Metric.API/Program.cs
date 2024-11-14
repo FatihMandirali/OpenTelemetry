@@ -17,6 +17,10 @@ builder.Services.AddOpenTelemetry().WithMetrics(options =>
         resource.AddService("Metric.Api", "1.0.0");
     });
 
+    options.AddAspNetCoreInstrumentation();
+    options.AddMeter("Microsoft.AspNetCore.Hosting",
+        "Microsoft.AspNetCore.Server.Kestrel");
+    options.AddRuntimeInstrumentation();
     options.AddPrometheusExporter();
 });
 

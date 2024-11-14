@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Logging.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f041579f9d2ccc0133a2d1949d748b165b216d98")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a8d5eab7bc124fc17818bd4d50b8b5e4e038c04")]
 [assembly: System.Reflection.AssemblyProductAttribute("Logging.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Logging.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

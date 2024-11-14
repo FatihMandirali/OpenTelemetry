@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "2bwBPV7rJb6qBrsvHY/lg2q5AAw2gWm5VZTSHQnZHIk=",
+  "Hash": "DISNfZvims41szVffsHY8dx7GjkUyLGui1w/Aak9nYI=",
   "Source": "Metric.API",
   "BasePath": "_content/Metric.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

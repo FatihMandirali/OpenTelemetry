@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "71ZFcuMI1gk4OvbxFkOp7MRaswumrw1QrG+6al4WW0eAwEl/6icFD4LhFC6zcpTCmCe6hLppcg5GG8sJT0jdPQ==",
+  "dgSpecHash": "pbdPkBf6kqc=",
   "success": true,
   "projectFilePath": "/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Common.Shared/Common.Shared.csproj",
   "expectedPackageFiles": [
-    "/Users/fatihmandirali/.nuget/packages/microsoft.io.recyclablememorystream/3.0.1/microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512"
+    "/Users/fatihmandirali/.nuget/packages/microsoft.io.recyclablememorystream/3.0.1/microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512"
   ],
   "logs": []
 }

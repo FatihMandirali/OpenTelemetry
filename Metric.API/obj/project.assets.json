@@ -77,17 +77,20 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.FileProviders.Abstractions/2.1.0": {
@@ -253,35 +256,35 @@
           }
         }
       },
-      "OpenTelemetry.Api/1.6.0": {
+      "OpenTelemetry.Api/1.9.0": {
         "type": "package",
         "dependencies": {
-          "System.Diagnostics.DiagnosticSource": "7.0.2"
+          "System.Diagnostics.DiagnosticSource": "8.0.0"
         },
         "compile": {
-          "lib/net6.0/OpenTelemetry.Api.dll": {
+          "lib/net8.0/OpenTelemetry.Api.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/OpenTelemetry.Api.dll": {
+          "lib/net8.0/OpenTelemetry.Api.dll": {
             "related": ".xml"
           }
         }
       },
-      "OpenTelemetry.Api.ProviderBuilderExtensions/1.6.0": {
+      "OpenTelemetry.Api.ProviderBuilderExtensions/1.9.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0",
-          "OpenTelemetry.Api": "1.6.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "OpenTelemetry.Api": "1.9.0"
         },
         "compile": {
-          "lib/net6.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll": {
+          "lib/net8.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll": {
+          "lib/net8.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll": {
             "related": ".xml"
           }
         }
@@ -318,6 +321,41 @@
         },
         "runtime": {
           "lib/net6.0/OpenTelemetry.Extensions.Hosting.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenTelemetry.Instrumentation.AspNetCore/1.9.0": {
+        "type": "package",
+        "dependencies": {
+          "OpenTelemetry.Api.ProviderBuilderExtensions": "[1.9.0, 2.0.0)"
+        },
+        "compile": {
+          "lib/net8.0/OpenTelemetry.Instrumentation.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/OpenTelemetry.Instrumentation.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "OpenTelemetry.Instrumentation.Runtime/1.9.0": {
+        "type": "package",
+        "dependencies": {
+          "OpenTelemetry.Api": "[1.9.0, 2.0.0)"
+        },
+        "compile": {
+          "lib/net6.0/OpenTelemetry.Instrumentation.Runtime.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/OpenTelemetry.Instrumentation.Runtime.dll": {
             "related": ".xml"
           }
         }
@@ -385,15 +423,15 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "System.Diagnostics.DiagnosticSource/7.0.2": {
+      "System.Diagnostics.DiagnosticSource/8.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/System.Diagnostics.DiagnosticSource.dll": {
+          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Diagnostics.DiagnosticSource.dll": {
+          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
             "related": ".xml"
           }
         },
@@ -703,18 +741,36 @@
         "packageIcon.png"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.0": {
-      "sha512": "44rDtOf1JXXAFpNT2EXMExaDm/4OJ2RXOL9i9lE4bK427nzC7Exphv+beB6IgluyE2GIoo8zezTStMXI7MQ8WA==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "sha512": "cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.0",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
-        "packageIcon.png"
+        "useSharedDesignerContext.txt"
       ]
     },
     "Microsoft.Extensions.FileProviders.Abstractions/2.1.0": {
@@ -874,39 +930,47 @@
         "opentelemetry.nuspec"
       ]
     },
-    "OpenTelemetry.Api/1.6.0": {
-      "sha512": "LTF4PB6UicJlgrBBg0rblAMyJJLMAVBujg8T9pGPQsl1vVgPNZoJNTLadhC3ZdYUzuKsvYLS31vT0/wl97JtEw==",
+    "OpenTelemetry.Api/1.9.0": {
+      "sha512": "Xz8ZvM1Lm0m7BbtGBnw2JlPo++YKyMp08zMK5p0mf+cIi5jeMt2+QsYu9X6YEAbjCxBQYwEak5Z8sY6Ig2WcwQ==",
       "type": "package",
-      "path": "opentelemetry.api/1.6.0",
+      "path": "opentelemetry.api/1.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
         "lib/net462/OpenTelemetry.Api.dll",
         "lib/net462/OpenTelemetry.Api.xml",
         "lib/net6.0/OpenTelemetry.Api.dll",
         "lib/net6.0/OpenTelemetry.Api.xml",
+        "lib/net8.0/OpenTelemetry.Api.dll",
+        "lib/net8.0/OpenTelemetry.Api.xml",
         "lib/netstandard2.0/OpenTelemetry.Api.dll",
         "lib/netstandard2.0/OpenTelemetry.Api.xml",
         "opentelemetry-icon-color.png",
-        "opentelemetry.api.1.6.0.nupkg.sha512",
+        "opentelemetry.api.1.9.0.nupkg.sha512",
         "opentelemetry.api.nuspec"
       ]
     },
-    "OpenTelemetry.Api.ProviderBuilderExtensions/1.6.0": {
-      "sha512": "k8lqUAxjXkCV6yKdXfCbxsHMh5x7F7q8lAKm61rP/iP3EJPG1XhOy3j9nyubBYCm/xqlIy4ugWcqY1Inxolozw==",
+    "OpenTelemetry.Api.ProviderBuilderExtensions/1.9.0": {
+      "sha512": "L0D4LBR5JFmwLun5MCWVGapsJLV0ANZ+XXu9NEI3JE/HRKkRuUO+J2MuHD5DBwiU//QMYYM4B22oev1hVLoHDQ==",
       "type": "package",
-      "path": "opentelemetry.api.providerbuilderextensions/1.6.0",
+      "path": "opentelemetry.api.providerbuilderextensions/1.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
         "lib/net462/OpenTelemetry.Api.ProviderBuilderExtensions.dll",
         "lib/net462/OpenTelemetry.Api.ProviderBuilderExtensions.xml",
         "lib/net6.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll",
         "lib/net6.0/OpenTelemetry.Api.ProviderBuilderExtensions.xml",
+        "lib/net8.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll",
+        "lib/net8.0/OpenTelemetry.Api.ProviderBuilderExtensions.xml",
         "lib/netstandard2.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll",
         "lib/netstandard2.0/OpenTelemetry.Api.ProviderBuilderExtensions.xml",
         "opentelemetry-icon-color.png",
-        "opentelemetry.api.providerbuilderextensions.1.6.0.nupkg.sha512",
+        "opentelemetry.api.providerbuilderextensions.1.9.0.nupkg.sha512",
         "opentelemetry.api.providerbuilderextensions.nuspec"
       ]
     },
@@ -940,6 +1004,44 @@
         "opentelemetry-icon-color.png",
         "opentelemetry.extensions.hosting.1.6.0.nupkg.sha512",
         "opentelemetry.extensions.hosting.nuspec"
+      ]
+    },
+    "OpenTelemetry.Instrumentation.AspNetCore/1.9.0": {
+      "sha512": "x4HuWBw1rbWZUh5j8/GpXz3xa7JnrTuKne+ACmBqvcoO/rNGkG7HayRruwoQ7gf52xpMtRGr4gxlhLW8eU0EiQ==",
+      "type": "package",
+      "path": "opentelemetry.instrumentation.aspnetcore/1.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/OpenTelemetry.Instrumentation.AspNetCore.dll",
+        "lib/net6.0/OpenTelemetry.Instrumentation.AspNetCore.xml",
+        "lib/net7.0/OpenTelemetry.Instrumentation.AspNetCore.dll",
+        "lib/net7.0/OpenTelemetry.Instrumentation.AspNetCore.xml",
+        "lib/net8.0/OpenTelemetry.Instrumentation.AspNetCore.dll",
+        "lib/net8.0/OpenTelemetry.Instrumentation.AspNetCore.xml",
+        "lib/netstandard2.0/OpenTelemetry.Instrumentation.AspNetCore.dll",
+        "lib/netstandard2.0/OpenTelemetry.Instrumentation.AspNetCore.xml",
+        "opentelemetry-icon-color.png",
+        "opentelemetry.instrumentation.aspnetcore.1.9.0.nupkg.sha512",
+        "opentelemetry.instrumentation.aspnetcore.nuspec"
+      ]
+    },
+    "OpenTelemetry.Instrumentation.Runtime/1.9.0": {
+      "sha512": "6raJb9Pvi1CaBB59SX86Mr9NQiQbiv9ialO+cQKFRGCq3Bl2WC8cTTcbfGtaRX0quqWnZC/dK7xrXuOuYcwANA==",
+      "type": "package",
+      "path": "opentelemetry.instrumentation.runtime/1.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/OpenTelemetry.Instrumentation.Runtime.dll",
+        "lib/net462/OpenTelemetry.Instrumentation.Runtime.xml",
+        "lib/net6.0/OpenTelemetry.Instrumentation.Runtime.dll",
+        "lib/net6.0/OpenTelemetry.Instrumentation.Runtime.xml",
+        "lib/netstandard2.0/OpenTelemetry.Instrumentation.Runtime.dll",
+        "lib/netstandard2.0/OpenTelemetry.Instrumentation.Runtime.xml",
+        "opentelemetry-icon-color.png",
+        "opentelemetry.instrumentation.runtime.1.9.0.nupkg.sha512",
+        "opentelemetry.instrumentation.runtime.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/6.4.0": {
@@ -1023,10 +1125,10 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-    "System.Diagnostics.DiagnosticSource/7.0.2": {
-      "sha512": "hYr3I9N9811e0Bjf2WNwAGGyTuAFbbTgX1RPLt/3Wbm68x3IGcX5Cl75CMmgT6WlNwLQ2tCCWfqYPpypjaf2xA==",
+    "System.Diagnostics.DiagnosticSource/8.0.0": {
+      "sha512": "c9xLpVz6PL9lp/djOWtk5KPDZq3cSYpmXoJQY524EOtuFl5z9ZtsotpsyrDW40U1DRnQSYvcPKEUV0X//u6gkQ==",
       "type": "package",
-      "path": "system.diagnostics.diagnosticsource/7.0.2",
+      "path": "system.diagnostics.diagnosticsource/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1043,9 +1145,11 @@
         "lib/net6.0/System.Diagnostics.DiagnosticSource.xml",
         "lib/net7.0/System.Diagnostics.DiagnosticSource.dll",
         "lib/net7.0/System.Diagnostics.DiagnosticSource.xml",
+        "lib/net8.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net8.0/System.Diagnostics.DiagnosticSource.xml",
         "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
         "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.xml",
-        "system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",
+        "system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
         "system.diagnostics.diagnosticsource.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1055,6 +1159,8 @@
     "net8.0": [
       "OpenTelemetry.Exporter.Prometheus.AspNetCore >= 1.6.0-rc.1",
       "OpenTelemetry.Extensions.Hosting >= 1.6.0",
+      "OpenTelemetry.Instrumentation.AspNetCore >= 1.9.0",
+      "OpenTelemetry.Instrumentation.Runtime >= 1.9.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -1090,7 +1196,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -1103,6 +1215,14 @@
           "OpenTelemetry.Extensions.Hosting": {
             "target": "Package",
             "version": "[1.6.0, )"
+          },
+          "OpenTelemetry.Instrumentation.AspNetCore": {
+            "target": "Package",
+            "version": "[1.9.0, )"
+          },
+          "OpenTelemetry.Instrumentation.Runtime": {
+            "target": "Package",
+            "version": "[1.9.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -1120,6 +1240,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[8.0.11, 8.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.11, 8.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1128,7 +1262,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

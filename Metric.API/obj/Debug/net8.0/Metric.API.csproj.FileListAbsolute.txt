@@ -30,9 +30,14 @@
 /Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Metric.API/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Metric.API.props
 /Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Metric.API/obj/Debug/net8.0/staticwebassets.pack.json
 /Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Metric.API/obj/Debug/net8.0/scopedcss/bundle/Metric.API.styles.css
-/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Metric.API/obj/Debug/net8.0/Metric.API.csproj.CopyComplete
 /Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Metric.API/obj/Debug/net8.0/Metric.API.dll
 /Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Metric.API/obj/Debug/net8.0/refint/Metric.API.dll
 /Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Metric.API/obj/Debug/net8.0/Metric.API.pdb
 /Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Metric.API/obj/Debug/net8.0/Metric.API.genruntimeconfig.cache
 /Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Metric.API/obj/Debug/net8.0/ref/Metric.API.dll
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Metric.API/bin/Debug/net8.0/Metric.API.staticwebassets.endpoints.json
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Metric.API/bin/Debug/net8.0/OpenTelemetry.Instrumentation.AspNetCore.dll
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Metric.API/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Metric.API/obj/Debug/net8.0/staticwebassets/msbuild.Metric.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Metric.API/obj/Debug/net8.0/Metric.API.csproj.Up2Date
+/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Metric.API/bin/Debug/net8.0/OpenTelemetry.Instrumentation.Runtime.dll

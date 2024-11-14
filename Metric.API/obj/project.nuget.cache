@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "L6EHaRWMDPMYmqnVOWVcmO7oZRJ1V8KBGn/4CVYei9/YKUFkRPesWqDlB4/z6A3rwpfxm/PIDIwmrSeWpGrNvw==",
+  "dgSpecHash": "955hj9xmPEA=",
   "success": true,
   "projectFilePath": "/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Metric.API/Metric.API.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,7 @@
     "/Users/fatihmandirali/.nuget/packages/microsoft.extensions.configuration.abstractions/3.1.0/microsoft.extensions.configuration.abstractions.3.1.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/microsoft.extensions.configuration.binder/3.1.0/microsoft.extensions.configuration.binder.3.1.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/microsoft.extensions.dependencyinjection/3.1.0/microsoft.extensions.dependencyinjection.3.1.0.nupkg.sha512",
-    "/Users/fatihmandirali/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.0/microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/microsoft.extensions.fileproviders.abstractions/2.1.0/microsoft.extensions.fileproviders.abstractions.2.1.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/microsoft.extensions.hosting.abstractions/2.1.0/microsoft.extensions.hosting.abstractions.2.1.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/microsoft.extensions.logging/3.1.0/microsoft.extensions.logging.3.1.0.nupkg.sha512",
@@ -20,15 +20,20 @@
     "/Users/fatihmandirali/.nuget/packages/microsoft.extensions.primitives/3.1.0/microsoft.extensions.primitives.3.1.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/opentelemetry/1.6.0/opentelemetry.1.6.0.nupkg.sha512",
-    "/Users/fatihmandirali/.nuget/packages/opentelemetry.api/1.6.0/opentelemetry.api.1.6.0.nupkg.sha512",
-    "/Users/fatihmandirali/.nuget/packages/opentelemetry.api.providerbuilderextensions/1.6.0/opentelemetry.api.providerbuilderextensions.1.6.0.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/opentelemetry.api/1.9.0/opentelemetry.api.1.9.0.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/opentelemetry.api.providerbuilderextensions/1.9.0/opentelemetry.api.providerbuilderextensions.1.9.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/opentelemetry.exporter.prometheus.aspnetcore/1.6.0-rc.1/opentelemetry.exporter.prometheus.aspnetcore.1.6.0-rc.1.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/opentelemetry.extensions.hosting/1.6.0/opentelemetry.extensions.hosting.1.6.0.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/opentelemetry.instrumentation.aspnetcore/1.9.0/opentelemetry.instrumentation.aspnetcore.1.9.0.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/opentelemetry.instrumentation.runtime/1.9.0/opentelemetry.instrumentation.runtime.1.9.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
-    "/Users/fatihmandirali/.nuget/packages/system.diagnostics.diagnosticsource/7.0.2/system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512"
+    "/Users/fatihmandirali/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.11/microsoft.netcore.app.host.osx-arm64.8.0.11.nupkg.sha512"
   ],
   "logs": []
 }

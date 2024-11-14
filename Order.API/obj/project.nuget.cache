@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JWiR+1WaBDEW9Q1OcbwFanxoYIKB0W5E3TTYqn5kR/YLqBmCqTLKQimQcTazBWf9uDGFhyUkgv7NaeZ0u1iXpA==",
+  "dgSpecHash": "tX1aZeyC6Jk=",
   "success": true,
   "projectFilePath": "/Users/fatihmandirali/Documents/ws/lessons/opentelemetry/dotnet-example/OpenTelemetry/Order.API/Order.API.csproj",
   "expectedPackageFiles": [
@@ -135,7 +135,91 @@
     "/Users/fatihmandirali/.nuget/packages/system.text.json/7.0.3/system.text.json.7.0.3.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/system.threading.channels/8.0.0/system.threading.channels.8.0.0.nupkg.sha512",
     "/Users/fatihmandirali/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "/Users/fatihmandirali/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
+    "/Users/fatihmandirali/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/fatihmandirali/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.11/microsoft.netcore.app.host.osx-arm64.8.0.11.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.10.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.10.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Identity.Client' 4.56.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
+      "libraryId": "Microsoft.Identity.Client",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Identity.Client' 4.56.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-x674-v45j-fwxw",
+      "libraryId": "Microsoft.Identity.Client",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenTelemetry.Instrumentation.AspNetCore' 1.5.1-beta.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vh2m-22xx-q94f",
+      "libraryId": "OpenTelemetry.Instrumentation.AspNetCore",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenTelemetry.Instrumentation.Http' 1.5.1-beta.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vh2m-22xx-q94f",
+      "libraryId": "OpenTelemetry.Instrumentation.Http",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Formats.Asn1' 5.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-447r-wph3-92pm",
+      "libraryId": "System.Formats.Asn1",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Json' 7.0.3 has a known high severity vulnerability, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
